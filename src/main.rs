@@ -60,6 +60,6 @@ fn main() {
 // unset '/etc/mysql/mysql.conf.d/mysqld.cnf' comment out 'bind-address'
 // create database test;
 // create user 'david'@'%' identified by 'david';
-// grant all on privileges on *.* to 'david'@'%';
+// grant all privileges on *.* to 'david'@'%';
 
 // update mysql.user set host = '%' where user = 'david';
